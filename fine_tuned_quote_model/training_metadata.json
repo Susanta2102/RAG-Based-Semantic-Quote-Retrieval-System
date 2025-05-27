@@ -1,0 +1,6 @@
+{
+  "base_model": "all-MiniLM-L6-v2",
+  "training_examples": 3731,
+  "eval_examples": 933,
+  "model_dimension": 384
+}

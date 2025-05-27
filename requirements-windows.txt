@@ -1,0 +1,53 @@
+# Windows-Optimized Requirements for RAG Quote Retrieval System
+# Avoids compilation issues by using pre-built wheels
+
+# Core ML libraries (pre-compiled versions)
+torch>=1.9.0
+transformers>=4.20.0
+sentence-transformers>=2.2.0
+datasets>=2.0.0
+
+# Vector search (CPU version to avoid compilation)
+faiss-cpu>=1.7.0
+
+# Data processing
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Web framework
+streamlit>=1.25.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Language models and APIs
+openai>=0.27.0
+huggingface-hub>=0.14.0
+
+# Text processing (simplified - avoid spaCy compilation issues)
+textstat>=0.7.0
+# spacy>=3.4.0  # Commented out to avoid compilation
+
+# Utilities
+tqdm>=4.62.0
+python-dotenv>=0.19.0
+jsonlines>=3.0.0
+
+# Development tools
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# API framework
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+
+# Testing (optional)
+pytest>=6.0.0
+pytest-asyncio>=0.18.0
+
+# Alternative to spaCy for basic text processing
+nltk>=3.6.0

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-05-27 13:40:10",
+  "data_quality": {
+    "total_quotes": 2507,
+    "unique_authors": 872,
+    "quotes_with_tags": 2498,
+    "avg_quote_length": 163.6689270043877,
+    "avg_tags_per_quote": 3.1926605504587156,
+    "min_length": 
